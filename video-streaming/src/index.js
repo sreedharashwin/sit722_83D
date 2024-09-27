@@ -50,7 +50,7 @@ async function main() {
         broadcastViewedMessage(messageChannel, videoId); // Sends the "viewed" message to indicate this video has been watched.
     });
 
-    app.listen(PORT, () => { // Starts the HTTP server on the port!!
+    app.listen(PORT, () => { // Starts the HTTP server on the port!!!
         console.log("Microservice online.");
     });
 }
