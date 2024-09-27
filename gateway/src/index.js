@@ -27,7 +27,7 @@ async function main() {
         // Retreives the list of videos from the metadata microservice.
         const videosResponse = await axios.get("http://metadata/videos");
 
-        // Renders the video list for display in the browser.
+        // Renders the video list for display in the browser!
         res.render("video-list", { videos: videosResponse.data.videos });
     });
 

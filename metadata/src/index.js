@@ -14,7 +14,7 @@ async function startMicroservice(dbHost, dbName, rabbitHost, port) {
     const messageChannel = await messagingConnection.createChannel(); // Creates a RabbitMQ messaging channel.
 
     const app = express();
-    app.use(express.json()); // Enable JSON body for HTTP requests.
+    app.use(express.json()); // Enable JSON body for HTTP requests!
 
 
     //
