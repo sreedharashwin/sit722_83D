@@ -41,7 +41,7 @@ async function main() {
     const client = await mongodb.MongoClient.connect(DBHOST);
 
     //
-    // Gets the database for this microservice.
+    // Gets the database for this microservice!
     //
     const db  = client.db(DBNAME);
 
