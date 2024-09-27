@@ -36,7 +36,7 @@ async function main() {
     app.use(express.json()); 
 
     //
-    // Connects to the database server.
+    // Connects to the database server, which is MongoDB
     //
     const client = await mongodb.MongoClient.connect(DBHOST);
 
